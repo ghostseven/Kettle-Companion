@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07C313F790B1D6D719412D88 /* Pods_KettleCompanion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F131BCA0255BD782BB67BB8 /* Pods_KettleCompanion.framework */; };
+		25002075282BC9E80074EC9F /* KettleCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25002074282BC9E80074EC9F /* KettleCompanionApp.swift */; };
+		25002077282BC9E80074EC9F /* KettleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25002076282BC9E80074EC9F /* KettleView.swift */; };
+		25002079282BC9E90074EC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25002078282BC9E90074EC9F /* Assets.xcassets */; };
+		2500207C282BC9E90074EC9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2500207B282BC9E90074EC9F /* Preview Assets.xcassets */; };
+		2500207E282BC9E90074EC9F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2500207D282BC9E90074EC9F /* Persistence.swift */; };
+		25002081282BC9E90074EC9F /* KettleCompanion.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2500207F282BC9E90074EC9F /* KettleCompanion.xcdatamodeld */; };
+		250020A1282D24210074EC9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020A0282D24210074EC9F /* AppDelegate.swift */; };
+		250020A3282D40940074EC9F /* MQTTManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020A2282D40940074EC9F /* MQTTManager.swift */; };
+		250020B1283AE9410074EC9F /* KettleEvent+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020AF283AE9410074EC9F /* KettleEvent+CoreDataClass.swift */; };
+		250020B2283AE9410074EC9F /* KettleEvent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020B0283AE9410074EC9F /* KettleEvent+CoreDataProperties.swift */; };
+		250020B5283BCEA10074EC9F /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020B4283BCEA10074EC9F /* KeychainHelper.swift */; };
+		250020B9283D84B10074EC9F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020B8283D84B10074EC9F /* Settings.swift */; };
+		256C827D284E266200FEC860 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C827C284E266200FEC860 /* About.swift */; };
+		256C827F284E387F00FEC860 /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C827E284E387F00FEC860 /* ApplicationMenu.swift */; };
+		258B2D052853819F0019181C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 258B2D042853819F0019181C /* Credits.rtf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25002071282BC9E80074EC9F /* Kettle Companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Kettle Companion.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25002074282BC9E80074EC9F /* KettleCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KettleCompanionApp.swift; sourceTree = "<group>"; };
+		25002076282BC9E80074EC9F /* KettleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KettleView.swift; sourceTree = "<group>"; };
+		25002078282BC9E90074EC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2500207B282BC9E90074EC9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2500207D282BC9E90074EC9F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		25002080282BC9E90074EC9F /* KettleCompanion.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KettleCompanion.xcdatamodel; sourceTree = "<group>"; };
+		25002082282BC9E90074EC9F /* KettleCompanion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KettleCompanion.entitlements; sourceTree = "<group>"; };
+		250020A0282D24210074EC9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		250020A2282D40940074EC9F /* MQTTManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTManager.swift; sourceTree = "<group>"; };
+		250020AF283AE9410074EC9F /* KettleEvent+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KettleEvent+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		250020B0283AE9410074EC9F /* KettleEvent+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KettleEvent+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		250020B4283BCEA10074EC9F /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		250020B8283D84B10074EC9F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		250020BA2844EDDB0074EC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		256C827C284E266200FEC860 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
+		256C827E284E387F00FEC860 /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
+		258B2D042853819F0019181C /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
+		3F131BCA0255BD782BB67BB8 /* Pods_KettleCompanion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KettleCompanion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EEAA2BA92C4C3252B869061 /* Pods-KettleCompanion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KettleCompanion.debug.xcconfig"; path = "Target Support Files/Pods-KettleCompanion/Pods-KettleCompanion.debug.xcconfig"; sourceTree = "<group>"; };
+		B8EC33F4FF81324A47C54504 /* Pods-KettleCompanion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KettleCompanion.release.xcconfig"; path = "Target Support Files/Pods-KettleCompanion/Pods-KettleCompanion.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2500206E282BC9E80074EC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07C313F790B1D6D719412D88 /* Pods_KettleCompanion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25002068282BC9E80074EC9F = {
+			isa = PBXGroup;
+			children = (
+				25002073282BC9E80074EC9F /* KettleCompanion */,
+				25002072282BC9E80074EC9F /* Products */,
+				94BE1C61FA335B7E10CC2858 /* Pods */,
+				CBFDC9F29B730525CFDE9269 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25002072282BC9E80074EC9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25002071282BC9E80074EC9F /* Kettle Companion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25002073282BC9E80074EC9F /* KettleCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				250020BA2844EDDB0074EC9F /* Info.plist */,
+				250020B3283BCE270074EC9F /* AppSettings */,
+				250020A4282D4B160074EC9F /* MQTT */,
+				25002089282BCA1A0074EC9F /* CoreData */,
+				25002088282BCA070074EC9F /* MenuBar */,
+				256C827C284E266200FEC860 /* About.swift */,
+				250020A0282D24210074EC9F /* AppDelegate.swift */,
+				25002074282BC9E80074EC9F /* KettleCompanionApp.swift */,
+				25002078282BC9E90074EC9F /* Assets.xcassets */,
+				25002082282BC9E90074EC9F /* KettleCompanion.entitlements */,
+				2500207A282BC9E90074EC9F /* Preview Content */,
+				258B2D042853819F0019181C /* Credits.rtf */,
+			);
+			path = KettleCompanion;
+			sourceTree = "<group>";
+		};
+		2500207A282BC9E90074EC9F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2500207B282BC9E90074EC9F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		25002088282BCA070074EC9F /* MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				25002076282BC9E80074EC9F /* KettleView.swift */,
+				256C827E284E387F00FEC860 /* ApplicationMenu.swift */,
+			);
+			path = MenuBar;
+			sourceTree = "<group>";
+		};
+		25002089282BCA1A0074EC9F /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				250020AF283AE9410074EC9F /* KettleEvent+CoreDataClass.swift */,
+				250020B0283AE9410074EC9F /* KettleEvent+CoreDataProperties.swift */,
+				2500207F282BC9E90074EC9F /* KettleCompanion.xcdatamodeld */,
+				2500207D282BC9E90074EC9F /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		250020A4282D4B160074EC9F /* MQTT */ = {
+			isa = PBXGroup;
+			children = (
+				250020A2282D40940074EC9F /* MQTTManager.swift */,
+			);
+			path = MQTT;
+			sourceTree = "<group>";
+		};
+		250020B3283BCE270074EC9F /* AppSettings */ = {
+			isa = PBXGroup;
+			children = (
+				250020B8283D84B10074EC9F /* Settings.swift */,
+				250020B4283BCEA10074EC9F /* KeychainHelper.swift */,
+			);
+			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		94BE1C61FA335B7E10CC2858 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EEAA2BA92C4C3252B869061 /* Pods-KettleCompanion.debug.xcconfig */,
+				B8EC33F4FF81324A47C54504 /* Pods-KettleCompanion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CBFDC9F29B730525CFDE9269 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F131BCA0255BD782BB67BB8 /* Pods_KettleCompanion.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25002070282BC9E80074EC9F /* Kettle Companion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25002085282BC9E90074EC9F /* Build configuration list for PBXNativeTarget "Kettle Companion" */;
+			buildPhases = (
+				6D661281A3EA9D053A2555ED /* [CP] Check Pods Manifest.lock */,
+				2500206D282BC9E80074EC9F /* Sources */,
+				2500206E282BC9E80074EC9F /* Frameworks */,
+				2500206F282BC9E80074EC9F /* Resources */,
+				B28FEFB9907F98218AC62759 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Kettle Companion";
+			productName = KettleCompanion;
+			productReference = 25002071282BC9E80074EC9F /* Kettle Companion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25002069282BC9E80074EC9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					25002070282BC9E80074EC9F = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 2500206C282BC9E80074EC9F /* Build configuration list for PBXProject "Kettle Companion" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25002068282BC9E80074EC9F;
+			productRefGroup = 25002072282BC9E80074EC9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25002070282BC9E80074EC9F /* Kettle Companion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2500206F282BC9E80074EC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2500207C282BC9E90074EC9F /* Preview Assets.xcassets in Resources */,
+				258B2D052853819F0019181C /* Credits.rtf in Resources */,
+				25002079282BC9E90074EC9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D661281A3EA9D053A2555ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KettleCompanion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B28FEFB9907F98218AC62759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KettleCompanion/Pods-KettleCompanion-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KettleCompanion/Pods-KettleCompanion-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KettleCompanion/Pods-KettleCompanion-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2500206D282BC9E80074EC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				250020B1283AE9410074EC9F /* KettleEvent+CoreDataClass.swift in Sources */,
+				250020B2283AE9410074EC9F /* KettleEvent+CoreDataProperties.swift in Sources */,
+				256C827D284E266200FEC860 /* About.swift in Sources */,
+				250020A1282D24210074EC9F /* AppDelegate.swift in Sources */,
+				250020B5283BCEA10074EC9F /* KeychainHelper.swift in Sources */,
+				250020B9283D84B10074EC9F /* Settings.swift in Sources */,
+				250020A3282D40940074EC9F /* MQTTManager.swift in Sources */,
+				256C827F284E387F00FEC860 /* ApplicationMenu.swift in Sources */,
+				2500207E282BC9E90074EC9F /* Persistence.swift in Sources */,
+				25002081282BC9E90074EC9F /* KettleCompanion.xcdatamodeld in Sources */,
+				25002077282BC9E80074EC9F /* KettleView.swift in Sources */,
+				25002075282BC9E80074EC9F /* KettleCompanionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25002083282BC9E90074EC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		25002084282BC9E90074EC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		25002086282BC9E90074EC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EEAA2BA92C4C3252B869061 /* Pods-KettleCompanion.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KettleCompanion/KettleCompanion.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KettleCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = JHD73ZV7HU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KettleCompanion/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Draytronics.KettleCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		25002087282BC9E90074EC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8EC33F4FF81324A47C54504 /* Pods-KettleCompanion.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KettleCompanion/KettleCompanion.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KettleCompanion/Preview Content\"";
+				DEVELOPMENT_TEAM = JHD73ZV7HU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KettleCompanion/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Draytronics.KettleCompanion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2500206C282BC9E80074EC9F /* Build configuration list for PBXProject "Kettle Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25002083282BC9E90074EC9F /* Debug */,
+				25002084282BC9E90074EC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25002085282BC9E90074EC9F /* Build configuration list for PBXNativeTarget "Kettle Companion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25002086282BC9E90074EC9F /* Debug */,
+				25002087282BC9E90074EC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2500207F282BC9E90074EC9F /* KettleCompanion.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				25002080282BC9E90074EC9F /* KettleCompanion.xcdatamodel */,
+			);
+			currentVersion = 25002080282BC9E90074EC9F /* KettleCompanion.xcdatamodel */;
+			path = KettleCompanion.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 25002069282BC9E80074EC9F /* Project object */;
+}
