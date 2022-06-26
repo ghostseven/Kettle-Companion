@@ -20,6 +20,8 @@
 		250020B2283AE9410074EC9F /* KettleEvent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020B0283AE9410074EC9F /* KettleEvent+CoreDataProperties.swift */; };
 		250020B5283BCEA10074EC9F /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020B4283BCEA10074EC9F /* KeychainHelper.swift */; };
 		250020B9283D84B10074EC9F /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250020B8283D84B10074EC9F /* Settings.swift */; };
+		253F420D286890E0009AC9DA /* KettleCompanion-Menubar.png in Resources */ = {isa = PBXBuildFile; fileRef = 253F420B286890E0009AC9DA /* KettleCompanion-Menubar.png */; };
+		253F420E286890E0009AC9DA /* KettleCompanion-Menu-Pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 253F420C286890E0009AC9DA /* KettleCompanion-Menu-Pop.png */; };
 		256C827D284E266200FEC860 /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C827C284E266200FEC860 /* About.swift */; };
 		256C827F284E387F00FEC860 /* ApplicationMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256C827E284E387F00FEC860 /* ApplicationMenu.swift */; };
 		258B2D052853819F0019181C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 258B2D042853819F0019181C /* Credits.rtf */; };
@@ -41,6 +43,8 @@
 		250020B4283BCEA10074EC9F /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 		250020B8283D84B10074EC9F /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		250020BA2844EDDB0074EC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		253F420B286890E0009AC9DA /* KettleCompanion-Menubar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KettleCompanion-Menubar.png"; sourceTree = "<group>"; };
+		253F420C286890E0009AC9DA /* KettleCompanion-Menu-Pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KettleCompanion-Menu-Pop.png"; sourceTree = "<group>"; };
 		256C827C284E266200FEC860 /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
 		256C827E284E387F00FEC860 /* ApplicationMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationMenu.swift; sourceTree = "<group>"; };
 		258B2D042853819F0019181C /* Credits.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Credits.rtf; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 		25002073282BC9E80074EC9F /* KettleCompanion */ = {
 			isa = PBXGroup;
 			children = (
+				253F420A286890BE009AC9DA /* Screenshots */,
 				250020BA2844EDDB0074EC9F /* Info.plist */,
 				250020B3283BCE270074EC9F /* AppSettings */,
 				250020A4282D4B160074EC9F /* MQTT */,
@@ -141,6 +146,15 @@
 				250020B4283BCEA10074EC9F /* KeychainHelper.swift */,
 			);
 			path = AppSettings;
+			sourceTree = "<group>";
+		};
+		253F420A286890BE009AC9DA /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				253F420C286890E0009AC9DA /* KettleCompanion-Menu-Pop.png */,
+				253F420B286890E0009AC9DA /* KettleCompanion-Menubar.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 		94BE1C61FA335B7E10CC2858 /* Pods */ = {
@@ -222,6 +236,8 @@
 			files = (
 				2500207C282BC9E90074EC9F /* Preview Assets.xcassets in Resources */,
 				258B2D052853819F0019181C /* Credits.rtf in Resources */,
+				253F420D286890E0009AC9DA /* KettleCompanion-Menubar.png in Resources */,
+				253F420E286890E0009AC9DA /* KettleCompanion-Menu-Pop.png in Resources */,
 				25002079282BC9E90074EC9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
